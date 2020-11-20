@@ -3,9 +3,9 @@ git clone https://github.com/grantabejar/cf.git
 
 cd cf
 
-chmod 777 cf-auto-uam-install.sh
+chmod 777 lucid.sh
 
-bash cf-auto-uam-install.sh
+bash lucid.sh
 
 The installer will be asking for 3 things :
 
