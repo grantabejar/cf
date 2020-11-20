@@ -85,7 +85,7 @@ curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$cfzoneid/settings/
      -H "X-Auth-Email: $cfemail" \\
      -H "X-Auth-Key: $cfapikey" \\
      -H "Content-Type: application/json" \\
-     --data '{"value":"high"}'
+     --data '{"value":"low"}'
 EOF
 cat > uam.sh << EOF
 curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$cfzoneid/settings/security_level" \\
@@ -170,7 +170,7 @@ curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$cfzoneid/settings/
      -H "X-Auth-Email: $cfemail" \\
      -H "X-Auth-Key: $cfapikey" \\
      -H "Content-Type: application/json" \\
-     --data '{"value":"high"}'
+     --data '{"value":"low"}'
 EOF
 cat > uam.sh << EOF
 curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$cfzoneid/settings/security_level" \\
