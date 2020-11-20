@@ -1,7 +1,7 @@
 Installation
-git clone https://github.com/AlexxSST/cf-auto-uam.git
+git clone https://github.com/grantabejar/cf.git
 
-cd cf-auto-uam
+cd cf
 
 chmod 777 cf-auto-uam-install.sh
 
