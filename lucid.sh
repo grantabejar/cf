@@ -60,7 +60,7 @@ cat > activate.sh << EOF
 #!/bin/bash
 loadavg=load.avg
 cat /proc/loadavg | colrm 6 > \$loadavg
-grep -w "[0.00-80.00]" \$loadavg > /dev/null
+grep -w "[0.00-90.00]" \$loadavg > /dev/null
 if [ \$? -eq 0 ]
 then
 exit
@@ -145,7 +145,7 @@ cat > activate.sh << EOF
 #!/bin/bash
 loadavg=load.avg
 cat /proc/loadavg | colrm 6 > \$loadavg
-grep -w "[0.00-80.00]" \$loadavg > /dev/null
+grep -w "[0.00-90.00]" \$loadavg > /dev/null
 if [ \$? -eq 0 ]
 then
 exit
