@@ -1,13 +1,6 @@
 Installation
-git clone https://github.com/grantabejar/cf.git
+git clone https://github.com/grantabejar/cf.git && cd cf && chmod 777 lucid.sh && bash lucid.sh
 
-cd cf
-
-chmod 777 lucid.sh
-
-bash lucid.sh
-
-The installer will be asking for 3 things :
 
 Your CloudFlare email
 Your CloudFlare API key
